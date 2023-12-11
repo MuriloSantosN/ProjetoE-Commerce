@@ -1,0 +1,47 @@
+.texto {
+  margin: 2px;
+  padding: 2px;
+}
+
+.cabecalhoProduto {
+  composes: texto;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.imgProduto {
+  width: 98vw;
+  height: auto;
+}
+.cabecalho_descricao{
+  margin: 1px !important;
+}
+.descricaoProduto {
+  composes: texto;
+  text-align: center;
+  text-indent: 2em;
+  font-size: 1.2em;
+  padding: 0px 10px 10px 10px;
+}
+
+.painelCompra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.precoProduto {
+  font-size: 1.5em;
+  color: #2b9348;
+}
+.button_compra {
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+
+}
+
+.precoInvisivel {
+  display: none; 
+}
